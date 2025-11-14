@@ -1,0 +1,42 @@
+{
+  "name": "@activepieces/piece-ai-dev-tools",
+  "version": "0.0.1",
+  "dependencies": {
+    "@activepieces/pieces-framework": "*",
+    "@activepieces/shared": "*",
+    "@activepieces/common-ai": "*",
+    "openai": "^4.82.0",
+    "@anthropic-ai/sdk": "^0.36.0",
+    "google-auth-library": "^9.0.0",
+    "cheerio": "^1.0.0-rc.12",
+    "diff": "^5.1.0",
+    "escodegen": "^2.1.0",
+    "esprima": "^4.0.1",
+    "estraverse": "^5.3.0",
+    "esutils": "^3.0.0",
+    "js-beautify": "^1.14.9",
+    "js-yaml": "^4.1.0",
+    "json-schema-faker": "^0.5.3",
+    "lodash": "^4.17.21",
+    "prettier": "^3.0.0",
+    "semver": "^7.5.4",
+    "typescript": "^5.2.2",
+    "zod": "^3.22.4",
+    "zod-to-json-schema": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/diff": "^5.0.5",
+    "@types/escodegen": "^0.0.10",
+    "@types/esprima": "^4.0.3",
+    "@types/estraverse": "^5.0.4",
+    "@types/js-beautify": "^1.13.3",
+    "@types/js-yaml": "^4.0.5",
+    "@types/json-schema-faker": "^0.5.1",
+    "@types/lodash": "^4.14.195",
+    "@types/prettier": "^3.0.0",
+    "@types/semver": "^7.5.0",
+    "@vitest/coverage-v8": "^1.0.4"
+  },
+  "main": "./src/index.ts",
+  "type": "commonjs"
+}
